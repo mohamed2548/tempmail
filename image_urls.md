@@ -1,6 +1,25 @@
-# Image URLs
+<!doctype html>
+<html lang="ar" dir="rtl">
 
-hero-bg: https://d2xsxph8kpxj0f.cloudfront.net/310519663392107353/RAwE89A4Czx9WKKJj2ihLV/hero-bg-EhAVZv7JeRw6ZaZJn7QoAA.webp
-email-icon: https://d2xsxph8kpxj0f.cloudfront.net/310519663392107353/RAwE89A4Czx9WKKJj2ihLV/email-icon-X8ur3YVSXaqD7sveKbqvLs.webp
-inbox-illustration: https://d2xsxph8kpxj0f.cloudfront.net/310519663392107353/RAwE89A4Czx9WKKJj2ihLV/inbox-illustration-jpcajKnD5yqKx2QkUSHzTi.webp
-pattern-bg: https://d2xsxph8kpxj0f.cloudfront.net/310519663392107353/RAwE89A4Czx9WKKJj2ihLV/pattern-bg-iKHkbVLxyqamqahZXXfYpN.webp
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>TempMail - بريد إلكتروني مؤقت</title>
+    <meta name="description" content="بريد إلكتروني مؤقت مجاني - استقبل رسائل حقيقية بدون تسجيل" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script
+      defer
+      src="%VITE_ANALYTICS_ENDPOINT%/umami"
+      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+  </body>
+
+</html>
